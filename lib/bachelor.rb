@@ -1,7 +1,6 @@
 
 def get_first_name_of_season_winner(data, season)
   # code here
-  binding.pry
   
     data[season].each do |people|
       people.each do |k,v|
@@ -45,6 +44,7 @@ end
 
 def get_occupation(data, hometown)
   # code here
+  
 end
 
 def get_average_age_for_season(data, season)

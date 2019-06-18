@@ -1,7 +1,6 @@
 
 def get_first_name_of_season_winner(data, season)
   # code here
-  
     data[season].each do |people|
       people.each do |k,v|
         if v == "Winner"

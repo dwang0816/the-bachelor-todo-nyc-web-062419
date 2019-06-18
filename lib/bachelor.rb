@@ -70,5 +70,5 @@ count = 0
     end
   end
 
-   answer = (age/count).round
+  answer = (age/count).round
 return answer
